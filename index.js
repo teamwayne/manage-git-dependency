@@ -1,3 +1,3 @@
-const external = (item) => {
+export const external = (item) => {
   console.log('External manage.js dependency.', item)
 };
